@@ -1,4 +1,11 @@
 /******* GENERAL ******/
+body {
+  /*  background-image: url(../images/beach.jpg);*/
+   /* background-size:cover;*/
+   background: white;
+
+}
+
 .center {
   margin: 0 auto;
 }
@@ -9,43 +16,125 @@
 
 /******* XMAS TREE ******/
 #christmas-tree {
-  margin: 20px auto;
+  margin: 30px auto;
   width: 70px;
-  background: black;
-  color: white;
+ /* background: black;*/
+  background-color: red;
   text-align: center;
   font-size: 0.9em;
   border: 4px solid #ccc;
 }
 
-.lights {
+
+.lights1 {
+  width: 10px;
+  height: 10px;
+ background-color: yellow;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.lights2 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.lights3 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.lights4 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.lights5 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.lights6 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+.lights7 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.lights7 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.lightsOn {
+  
+  background-color: green;
+
+}
+
+/*.lights1, .lights2, .lights3, .lights 4  {
   border-bottom: 1px solid #ccc;
 }
 
-.lights div {
+
+.lights1, .lights2, .lights3, .lights 4 div {
   display: inline-block;
   background: white;
-}
-
-#pre-stage div, #stage div {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-}
-
-#pre-stage.on div {
-  background: yellow;
-}
-
-#start-lights div {
   width: 20px;
   height: 20px;
   border-radius: 10px;
 }
 
+.lightsOn div {
+  display: inline-block;
+  background: green;
+}
+
+#pre-stage div {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+ /* background: green;*/
+/*}
+#stage div {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}*/
+
+/*
+#start-lights div {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+*/
 /******* RACETRACK ******/
 #racetrack {
-  background: green;
+  /*background: green;*/
   width: 90%;
   height: 88px;
   border: 2px solid black;
@@ -70,7 +159,7 @@
 
 #finish {
   right: 49px;
-  background: white;
+  background: red;
 }
 
 #staged {
@@ -79,10 +168,10 @@
 }
 
 #dragster {
-  background: url(../images/mario.png) no-repeat;
+  background: url(../images/turtle.jpg) no-repeat;
   background-size: 39px 44px;
-  width: 39px;
-  height: 44px;
+  width: 45px;
+  height: 50px;
   top: 20px;
   z-index: 100;
 }
